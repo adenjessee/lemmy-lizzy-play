@@ -1,0 +1,16 @@
+{
+ "source": "reference/candidates/lemmy-rig-pose-flat/v4.png",
+ "exportScale": 0.5,
+ "image": "rig-lemmy-flat.webp",
+ "frames": [
+  {
+   "x": 1,
+   "y": 1,
+   "w": 1053,
+   "h": 470,
+   "ax": 604.7,
+   "ay": 442.8,
+   "shadow": true
+  }
+ ]
+}

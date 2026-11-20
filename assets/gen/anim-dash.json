@@ -1,0 +1,61 @@
+{
+ "source": "reference/candidates/duo-dash-keys/v3.png",
+ "exportScale": 0.6,
+ "image": "anim-dash.webp",
+ "frames": [
+  {
+   "x": 1,
+   "y": 1,
+   "w": 473,
+   "h": 313,
+   "ax": 241.3,
+   "ay": 309.3,
+   "shadow": true
+  },
+  {
+   "x": 578,
+   "y": 1,
+   "w": 508,
+   "h": 301,
+   "ax": 264.3,
+   "ay": 297,
+   "shadow": true
+  },
+  {
+   "x": 1155,
+   "y": 1,
+   "w": 575,
+   "h": 257,
+   "ax": 323.1,
+   "ay": 244,
+   "shadow": true
+  },
+  {
+   "x": 1,
+   "y": 317,
+   "w": 518,
+   "h": 275,
+   "ax": 278.6,
+   "ay": 297.7,
+   "shadow": true
+  },
+  {
+   "x": 578,
+   "y": 317,
+   "w": 557,
+   "h": 310,
+   "ax": 314.1,
+   "ay": 294.3,
+   "shadow": true
+  },
+  {
+   "x": 1155,
+   "y": 317,
+   "w": 524,
+   "h": 313,
+   "ax": 278.2,
+   "ay": 292.8,
+   "shadow": true
+  }
+ ]
+}

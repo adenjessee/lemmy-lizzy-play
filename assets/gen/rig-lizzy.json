@@ -1,0 +1,16 @@
+{
+ "source": "reference/candidates/lizzy-rig-pose/v2.png",
+ "exportScale": 0.5,
+ "image": "rig-lizzy.webp",
+ "frames": [
+  {
+   "x": 1,
+   "y": 1,
+   "w": 1081,
+   "h": 465,
+   "ax": 642.8,
+   "ay": 450.7,
+   "shadow": true
+  }
+ ]
+}

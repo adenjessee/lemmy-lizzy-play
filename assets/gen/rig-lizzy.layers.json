@@ -1,0 +1,47 @@
+{
+ "width": 1081,
+ "height": 465,
+ "parts": {
+  "body": {
+   "image": "rig-lizzy.body.webp",
+   "x": 0,
+   "y": 0,
+   "w": 1080,
+   "h": 331
+  },
+  "hind": {
+   "image": "rig-lizzy.hind.webp",
+   "x": 258,
+   "y": 262,
+   "w": 231,
+   "h": 202
+  },
+  "fore": {
+   "image": "rig-lizzy.fore.webp",
+   "x": 769,
+   "y": 239,
+   "w": 247,
+   "h": 184
+  },
+  "farHind": {
+   "image": "rig-lizzy.farHind.webp",
+   "x": 519,
+   "y": 322,
+   "w": 154,
+   "h": 123
+  },
+  "farFore": {
+   "image": "rig-lizzy.farFore.webp",
+   "x": 683,
+   "y": 297,
+   "w": 110,
+   "h": 151
+  }
+ },
+ "faces": {
+  "blink": "rig-lizzy.body.blink.webp",
+  "happy": "rig-lizzy.body.happy.webp",
+  "ouch": "rig-lizzy.body.ouch.webp",
+  "wow": "rig-lizzy.body.wow.webp"
+ }
+}

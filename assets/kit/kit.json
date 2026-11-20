@@ -1,0 +1,615 @@
+{
+ "fill-earth": {
+  "image": "fill-earth.webp",
+  "size": 512
+ },
+ "fill-bark": {
+  "image": "fill-bark.webp",
+  "size": 512
+ },
+ "fill-rock": {
+  "image": "fill-rock.webp",
+  "size": 512
+ },
+ "fill-bark-tree": {
+  "image": "fill-bark-tree.webp",
+  "size": 512
+ },
+ "fill-earth-b": {
+  "image": "fill-earth-b.webp",
+  "size": 512
+ },
+ "cap-grass": {
+  "image": "cap-grass.webp",
+  "w": 1360,
+  "h": 158,
+  "surface": 47.6,
+  "variants": 3
+ },
+ "cap-grass-front": {
+  "image": "cap-grass-front.webp",
+  "w": 1360,
+  "h": 59,
+  "surface": 47.6
+ },
+ "cap-turf": {
+  "image": "cap-turf.webp",
+  "w": 792,
+  "h": 153,
+  "surface": 6.7,
+  "variants": 2
+ },
+ "cap-turf-front": {
+  "image": "cap-turf-front.webp",
+  "w": 792,
+  "h": 17,
+  "surface": 6.7
+ },
+ "cap-rim": {
+  "image": "cap-rim.webp",
+  "w": 881,
+  "h": 86,
+  "surface": 7.3,
+  "variants": 2
+ },
+ "cap-rim-front": {
+  "image": "cap-rim-front.webp",
+  "w": 881,
+  "h": 13,
+  "surface": 7.3
+ },
+ "cap-moss": {
+  "image": "cap-moss.webp",
+  "w": 742,
+  "h": 177,
+  "surface": 52.4,
+  "variants": 2
+ },
+ "cap-moss-front": {
+  "image": "cap-moss-front.webp",
+  "w": 742,
+  "h": 65,
+  "surface": 52.4
+ },
+ "decor-floor": {
+  "image": "decor-floor.webp",
+  "frames": {
+   "grass": {
+    "x": 2,
+    "y": 2,
+    "w": 182,
+    "h": 132,
+    "ax": 92.5
+   },
+   "fern": {
+    "x": 197,
+    "y": 2,
+    "w": 121,
+    "h": 122,
+    "ax": 64.5
+   },
+   "mushrooms": {
+    "x": 392,
+    "y": 2,
+    "w": 131,
+    "h": 119,
+    "ax": 64.9
+   },
+   "seedling": {
+    "x": 2,
+    "y": 151,
+    "w": 191,
+    "h": 110,
+    "ax": 99.5
+   },
+   "moss": {
+    "x": 197,
+    "y": 151,
+    "w": 169,
+    "h": 105,
+    "ax": 84.2
+   },
+   "leaf": {
+    "x": 392,
+    "y": 151,
+    "w": 153,
+    "h": 97,
+    "ax": 87.1
+   },
+   "orchid": {
+    "x": 2,
+    "y": 300,
+    "w": 119,
+    "h": 145,
+    "ax": 51.6
+   },
+   "root": {
+    "x": 197,
+    "y": 300,
+    "w": 180,
+    "h": 119,
+    "ax": 91.3
+   },
+   "pebbles": {
+    "x": 392,
+    "y": 300,
+    "w": 152,
+    "h": 71,
+    "ax": 73.2
+   }
+  }
+ },
+ "pickups": {
+  "image": "pickups.webp",
+  "frames": {
+   "seed": {
+    "x": 2,
+    "y": 2,
+    "w": 95,
+    "h": 128,
+    "ax": 45.4
+   },
+   "fig": {
+    "x": 147,
+    "y": 2,
+    "w": 122,
+    "h": 141,
+    "ax": 60.2
+   },
+   "plum": {
+    "x": 292,
+    "y": 2,
+    "w": 113,
+    "h": 133,
+    "ax": 50.9
+   },
+   "golden": {
+    "x": 2,
+    "y": 147,
+    "w": 91,
+    "h": 120,
+    "ax": 46
+   },
+   "page": {
+    "x": 147,
+    "y": 147,
+    "w": 120,
+    "h": 139,
+    "ax": 62.4
+   },
+   "banana": {
+    "x": 292,
+    "y": 147,
+    "w": 141,
+    "h": 137,
+    "ax": 85.5
+   }
+  }
+ },
+ "checkpoint": {
+  "image": "checkpoint.webp",
+  "frames": {
+   "bud": {
+    "x": 2,
+    "y": 2,
+    "w": 257,
+    "h": 404,
+    "ax": 131.2
+   },
+   "bloom": {
+    "x": 312,
+    "y": 2,
+    "w": 306,
+    "h": 407,
+    "ax": 139.1
+   }
+  }
+ },
+ "stones": {
+  "image": "stones.webp",
+  "frames": {
+   "a": {
+    "x": 2,
+    "y": 2,
+    "w": 318,
+    "h": 209,
+    "ax": 158.7
+   },
+   "b": {
+    "x": 330,
+    "y": 2,
+    "w": 311,
+    "h": 194,
+    "ax": 153.5
+   },
+   "c": {
+    "x": 658,
+    "y": 2,
+    "w": 324,
+    "h": 254,
+    "ax": 155.7
+   },
+   "d": {
+    "x": 986,
+    "y": 2,
+    "w": 291,
+    "h": 194,
+    "ax": 149.3
+   }
+  }
+ },
+ "hornbill": {
+  "image": "hornbill.webp",
+  "frames": {
+   "up": {
+    "x": 2,
+    "y": 2,
+    "w": 235,
+    "h": 166,
+    "ax": 107.3
+   },
+   "level": {
+    "x": 247,
+    "y": 2,
+    "w": 241,
+    "h": 131,
+    "ax": 113.8
+   },
+   "down": {
+    "x": 492,
+    "y": 2,
+    "w": 180,
+    "h": 179,
+    "ax": 74
+   }
+  }
+ },
+ "hornbill-perched": {
+  "image": "hornbill-perched.webp",
+  "frames": {
+   "perched": {
+    "x": 2,
+    "y": 2,
+    "w": 434,
+    "h": 432,
+    "ax": 234.1
+   }
+  }
+ },
+ "ledges": {
+  "image": "ledges.webp",
+  "frames": {
+   "leaf": {
+    "x": 2,
+    "y": 2,
+    "w": 520,
+    "h": 350,
+    "ax": 198.4
+   },
+   "fungus": {
+    "x": 526,
+    "y": 2,
+    "w": 414,
+    "h": 305,
+    "ax": 165.3
+   }
+  }
+ },
+ "rattan": {
+  "image": "rattan.webp",
+  "frames": {
+   "thicket": {
+    "x": 2,
+    "y": 2,
+    "w": 798,
+    "h": 413,
+    "ax": 398.4
+   }
+  }
+ },
+ "fish": {
+  "image": "fish.webp",
+  "frames": {
+   "barb": {
+    "x": 2,
+    "y": 2,
+    "w": 222,
+    "h": 175,
+    "ax": 112.2
+   },
+   "mahseer": {
+    "x": 617,
+    "y": 2,
+    "w": 611,
+    "h": 302,
+    "ax": 299.5
+   }
+  }
+ },
+ "hangers": {
+  "image": "hangers.webp",
+  "frames": {
+   "fern": {
+    "x": 2,
+    "y": 2,
+    "w": 296,
+    "h": 364,
+    "ax": 164.4
+   },
+   "orchid": {
+    "x": 302,
+    "y": 2,
+    "w": 157,
+    "h": 369,
+    "ax": 85.4
+   },
+   "moss": {
+    "x": 602,
+    "y": 2,
+    "w": 225,
+    "h": 341,
+    "ax": 121.8
+   }
+  }
+ },
+ "gravel": {
+  "image": "gravel.webp",
+  "frames": {
+   "bank": {
+    "x": 2,
+    "y": 2,
+    "w": 362,
+    "h": 242,
+    "ax": 126.7
+   },
+   "bar": {
+    "x": 368,
+    "y": 2,
+    "w": 356,
+    "h": 103,
+    "ax": 178.7
+   }
+  }
+ },
+ "beetle": {
+  "image": "beetle.webp",
+  "frames": {
+   "body": {
+    "x": 2,
+    "y": 2,
+    "w": 214,
+    "h": 107,
+    "ax": 96.3
+   },
+   "wing": {
+    "x": 239,
+    "y": 2,
+    "w": 233,
+    "h": 92,
+    "ax": 126.2
+   }
+  }
+ },
+ "clumps": {
+  "image": "clumps.webp",
+  "frames": {
+   "wide": {
+    "x": 2,
+    "y": 2,
+    "w": 425,
+    "h": 244,
+    "ax": 210.6
+   },
+   "mid": {
+    "x": 431,
+    "y": 2,
+    "w": 339,
+    "h": 219,
+    "ax": 168.4
+   },
+   "small": {
+    "x": 860,
+    "y": 2,
+    "w": 242,
+    "h": 186,
+    "ax": 119.6
+   }
+  }
+ },
+ "leaves": {
+  "image": "leaves.webp",
+  "frames": {
+   "lance": {
+    "x": 2,
+    "y": 2,
+    "w": 150,
+    "h": 32,
+    "ax": 71.8
+   },
+   "fig": {
+    "x": 156,
+    "y": 2,
+    "w": 125,
+    "h": 84,
+    "ax": 64
+   },
+   "round": {
+    "x": 310,
+    "y": 2,
+    "w": 81,
+    "h": 58,
+    "ax": 43.4
+   },
+   "wavy": {
+    "x": 2,
+    "y": 90,
+    "w": 130,
+    "h": 67,
+    "ax": 68.9
+   },
+   "curved": {
+    "x": 156,
+    "y": 90,
+    "w": 142,
+    "h": 63,
+    "ax": 75.5
+   },
+   "young": {
+    "x": 310,
+    "y": 90,
+    "w": 78,
+    "h": 37,
+    "ax": 40.5
+   }
+  }
+ },
+ "bug": {
+  "image": "bug.webp",
+  "frames": {
+   "bug": {
+    "x": 2,
+    "y": 2,
+    "w": 347,
+    "h": 184,
+    "ax": 183.2
+   }
+  }
+ },
+ "barb": {
+  "image": "barb.webp",
+  "frames": {
+   "barb": {
+    "x": 2,
+    "y": 2,
+    "w": 440,
+    "h": 198,
+    "ax": 246.5
+   }
+  }
+ },
+ "banana-plant": {
+  "image": "banana-plant.webp",
+  "frames": {
+   "plant": {
+    "x": 2,
+    "y": 2,
+    "w": 735,
+    "h": 691,
+    "ax": 374.3
+   }
+  }
+ },
+ "viper-skin": {
+  "image": "viper-skin.webp",
+  "w": 299,
+  "h": 64,
+  "surface": 7.1,
+  "variants": 1
+ },
+ "viper-skin-front": {
+  "image": "viper-skin-front.webp",
+  "w": 299,
+  "h": 12,
+  "surface": 7.1
+ },
+ "liana": {
+  "image": "liana.webp",
+  "w": 310,
+  "h": 110,
+  "surface": 46.9,
+  "variants": 1
+ },
+ "liana-front": {
+  "image": "liana-front.webp",
+  "w": 310,
+  "h": 55,
+  "surface": 46.9
+ },
+ "viper-head": {
+  "image": "viper-head.webp",
+  "frames": {
+   "closed": {
+    "x": 2,
+    "y": 2,
+    "w": 402,
+    "h": 200,
+    "ax": 220.8
+   },
+   "strike": {
+    "x": 408,
+    "y": 2,
+    "w": 358,
+    "h": 229,
+    "ax": 170.5
+   }
+  }
+ },
+ "fruit-rambutan": {
+  "image": "fruit-rambutan.webp",
+  "frames": {
+   "rambutan": {
+    "x": 2,
+    "y": 2,
+    "w": 261,
+    "h": 293,
+    "ax": 132.6
+   }
+  }
+ },
+ "mid-jungle-near": {
+  "image": "mid-jungle-near.webp",
+  "w": 1884,
+  "h": 1143,
+  "bottom": 1142,
+  "base": 5598055
+ },
+ "mid-jungle-mid": {
+  "image": "mid-jungle-mid.webp",
+  "w": 1649,
+  "h": 1000,
+  "bottom": 999,
+  "base": 8361353
+ },
+ "mid-jungle-far": {
+  "image": "mid-jungle-far.webp",
+  "w": 1413,
+  "h": 857,
+  "bottom": 856,
+  "base": 8690580
+ },
+ "mid-jungle-ridge": {
+  "image": "mid-jungle-ridge.webp",
+  "w": 942,
+  "h": 572,
+  "bottom": 571,
+  "base": 11189683
+ },
+ "mid-canopy": {
+  "image": "mid-canopy.webp",
+  "w": 1884,
+  "h": 1143,
+  "bottom": 1142,
+  "base": 7563851
+ },
+ "mid-canopy-far": {
+  "image": "mid-canopy-far.webp",
+  "w": 1413,
+  "h": 857,
+  "bottom": 771,
+  "base": 9272924
+ },
+ "mid-canopy-ridge": {
+  "image": "mid-canopy-ridge.webp",
+  "w": 942,
+  "h": 572,
+  "bottom": 571,
+  "base": 11442800
+ },
+ "near-trunks": {
+  "image": "near-trunks.webp",
+  "w": 1884,
+  "h": 874,
+  "bottom": 873,
+  "base": 11713453
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "id": "stage4",
+ "name": "The Canopy",
+ "subtitle": "Game 1 · Stage 4 · the Java plum tree",
+ "width": 0,
+ "height": 0,
+ "killY": 0,
+ "palette": {
+  "sky": [
+   "#f2b56b",
+   "#f8e2b0"
+  ],
+  "grade": {
+   "warmth": 0.85,
+   "saturation": 0.95,
+   "paper": 1
+  }
+ },
+ "music": {
+  "theme": "canopy",
+  "tempo": 104
+ },
+ "intro": [
+  "High in the treetops, golden and bright,",
+  "the Java plums sparkle… but something’s not right."
+ ],
+ "layers": [
+  {
+   "id": "sky",
+   "depth": 0,
+   "kind": "sky"
+  },
+  {
+   "id": "painted-far",
+   "depth": 0.04,
+   "kind": "image",
+   "src": "/assets/gen/s4-far.webp",
+   "y": 1600,
+   "scale": 2.3,
+   "props": {
+    "haze": 0.25
+   }
+  },
+  {
+   "id": "shafts",
+   "depth": 1,
+   "kind": "lightshafts",
+   "seed": 8,
+   "props": {
+    "top": -500,
+    "bottom": 760,
+    "shafts": [
+     {
+      "x": 2600,
+      "w": 320
+     },
+     {
+      "x": 5800,
+      "w": 260
+     }
+    ]
+   }
+  }
+ ],
+ "terrain": [],
+ "platforms": [],
+ "entities": [],
+ "cameraZones": [
+  {
+   "id": "arena",
+   "x": 1500,
+   "y": -300,
+   "w": 2200,
+   "h": 1300,
+   "zoom": 0.75,
+   "focus": {
+    "x": 2700,
+    "y": 470
+   }
+  }
+ ],
+ "boss": {
+  "finale": [
+   {
+    "who": "Viper",
+    "lines": "Ooh, my head… you two are tough!\nKeep your plums. I’ve had enough!"
+   },
+   {
+    "who": "Lizzy",
+    "lines": "We did it, Lemmy! Look, up high:\nthe Java plums, against the sky!"
+   },
+   {
+    "who": "Lemmy",
+    "lines": "Let’s share the very first one we find…\nthe tastiest fruit is the kind you share, combined!"
+   }
+  ],
+  "tasting": {
+   "name": "Java Plum",
+   "rhyme": "Sweet and tangy, purple and bright,\nwe shared it together, bite after bite.\nThe TASTIEST fruit, it’s plain to see,\nis the one you share with a friend… like me!",
+   "score": 10
+  }
+ },
+ "grid": {
+  "cell": 140,
+  "origin": {
+   "x": -470,
+   "y": -80
+  },
+  "rows": [
+   "TT..........BBBBB...........................................TT",
+   "TTBBBBBBBBB.................................................TT",
+   "TT..........................................................TT",
+   "TT..........................................................TT",
+   "TT..........................................................TT",
+   "TT.................................................BBBBBBBBBTT",
+   "TT.......BBBBBBBBBBBBBBBBBBBBB.BBBBBBB....BBBBBB..............",
+   "TTBBBB........................................................",
+   "..............................................................",
+   "..............................................................",
+   ".............................................................."
+  ],
+  "things": [
+   "                                                              ",
+   "                                                              ",
+   "                                                              ",
+   "                                                 O         O  ",
+   "        o     V                        O           C          ",
+   "       V  oo ooo  C         J  C                              ",
+   "   S o     ?     !       Z                                    ",
+   "    ?                                                         ",
+   "                                                              ",
+   "                                                              ",
+   "                                                              "
+  ],
+  "notes": {
+   "7,4": {
+    "at": [
+     -30,
+     -70
+    ],
+    "text": "[Space] to jump into the vine. [←] [→] swing, [Space] lets go",
+    "props": {
+     "w": 420,
+     "h": 500
+    }
+   },
+   "6,11": {
+    "at": [
+     0,
+     -62
+    ],
+    "text": "The Java plum tree! But… is that branch moving?",
+    "props": {
+     "w": 420,
+     "h": 500
+    }
+   },
+   "6,17": {
+    "at": [
+     20,
+     -42
+    ],
+    "event": "boss-start",
+    "props": {
+     "w": 120,
+     "h": 600
+    }
+   },
+   "6,25": {
+    "at": [
+     50,
+     -44
+    ],
+    "props": {
+     "finalX": 7300
+    }
+   },
+   "4,39": {
+    "at": [
+     60,
+     -70
+    ],
+    "props": {
+     "note": "Golden seed: over the first chase gap"
+    }
+   },
+   "3,49": {
+    "at": [
+     -40,
+     30
+    ],
+    "props": {
+     "note": "Golden seed: over the second chase gap"
+    }
+   },
+   "3,59": {
+    "at": [
+     -60,
+     -34
+    ],
+    "props": {
+     "note": "Golden seed: past the top branch"
+    }
+   }
+  }
+ }
+}

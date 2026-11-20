@@ -1,0 +1,2179 @@
+{
+ "id": "stage2-preview",
+ "name": "The Brooks",
+ "subtitle": "Stage 2 · rainforest brooks · backdrop preview",
+ "width": 12900,
+ "height": 600,
+ "killY": 1500,
+ "palette": {
+  "sky": [
+   "#9ccbd8",
+   "#eef0d0"
+  ],
+  "grade": {
+   "warmth": 0.4,
+   "saturation": 0.95,
+   "paper": 1
+  }
+ },
+ "music": {
+  "theme": "meadow",
+  "tempo": 92
+ },
+ "intro": [
+  "Long ago, when the great ice was melting away",
+  "and the warm seas were rising a little each day,",
+  "two friends lay bored in the meadow grass:",
+  "Lemmy and Lizzy, watching the clouds pass."
+ ],
+ "layers": [
+  {
+   "id": "sky",
+   "depth": 0,
+   "kind": "sky"
+  },
+  {
+   "id": "painted-far",
+   "depth": 0.04,
+   "kind": "image",
+   "src": "/assets/gen/s2-far.webp",
+   "y": 1600,
+   "scale": 2.3,
+   "props": {
+    "haze": 0.3
+   }
+  },
+  {
+   "id": "treeline",
+   "depth": 0.3,
+   "kind": "treeline",
+   "y": 960,
+   "color": "#86a89a",
+   "seed": 9
+  },
+  {
+   "id": "hills",
+   "depth": 0.55,
+   "kind": "hills",
+   "y": 1040,
+   "color": "#7a9e88",
+   "seed": 11
+  }
+ ],
+ "terrain": [
+  {
+   "id": "ground-1",
+   "kind": "meadow",
+   "points": [
+    {
+     "x": -200,
+     "y": 900
+    },
+    {
+     "x": 300,
+     "y": 905
+    },
+    {
+     "x": 700,
+     "y": 890
+    },
+    {
+     "x": 1100,
+     "y": 900
+    },
+    {
+     "x": 1500,
+     "y": 895
+    },
+    {
+     "x": 1800,
+     "y": 900
+    },
+    {
+     "x": 2000,
+     "y": 860
+    },
+    {
+     "x": 2050,
+     "y": 760
+    },
+    {
+     "x": 2400,
+     "y": 755
+    },
+    {
+     "x": 2800,
+     "y": 770
+    },
+    {
+     "x": 3020,
+     "y": 770
+    },
+    {
+     "x": 3026,
+     "y": 830
+    },
+    {
+     "x": 3030,
+     "y": 1750
+    },
+    {
+     "x": -210,
+     "y": 1750
+    },
+    {
+     "x": -206,
+     "y": 960
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "log-10",
+   "kind": "log",
+   "points": [
+    {
+     "x": 1240,
+     "y": 905
+    },
+    {
+     "x": 1250,
+     "y": 838
+    },
+    {
+     "x": 1300,
+     "y": 826
+    },
+    {
+     "x": 1390,
+     "y": 830
+    },
+    {
+     "x": 1420,
+     "y": 905
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "ground-37",
+   "kind": "meadow",
+   "points": [
+    {
+     "x": 3240,
+     "y": 780
+    },
+    {
+     "x": 3500,
+     "y": 790
+    },
+    {
+     "x": 3700,
+     "y": 830
+    },
+    {
+     "x": 3900,
+     "y": 880
+    },
+    {
+     "x": 4000,
+     "y": 900
+    },
+    {
+     "x": 4600,
+     "y": 902
+    },
+    {
+     "x": 5000,
+     "y": 930
+    },
+    {
+     "x": 5400,
+     "y": 975
+    },
+    {
+     "x": 5640,
+     "y": 1000
+    },
+    {
+     "x": 5646,
+     "y": 1060
+    },
+    {
+     "x": 5650,
+     "y": 1750
+    },
+    {
+     "x": 3230,
+     "y": 1750
+    },
+    {
+     "x": 3234,
+     "y": 840
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "bark-45",
+   "kind": "bark",
+   "points": [
+    {
+     "x": 3990,
+     "y": 808
+    },
+    {
+     "x": 4060,
+     "y": 790
+    },
+    {
+     "x": 4200,
+     "y": 786
+    },
+    {
+     "x": 4380,
+     "y": 792
+    },
+    {
+     "x": 4520,
+     "y": 806
+    },
+    {
+     "x": 4560,
+     "y": 700
+    },
+    {
+     "x": 4500,
+     "y": 420
+    },
+    {
+     "x": 4300,
+     "y": 300
+    },
+    {
+     "x": 4100,
+     "y": 330
+    },
+    {
+     "x": 3990,
+     "y": 470
+    },
+    {
+     "x": 3960,
+     "y": 680
+    }
+   ],
+   "grassTop": false
+  },
+  {
+   "id": "log-64",
+   "kind": "log",
+   "points": [
+    {
+     "x": 5640,
+     "y": 1000
+    },
+    {
+     "x": 5650,
+     "y": 760
+    },
+    {
+     "x": 5700,
+     "y": 742
+    },
+    {
+     "x": 5900,
+     "y": 738
+    },
+    {
+     "x": 6000,
+     "y": 748
+    },
+    {
+     "x": 6010,
+     "y": 1000
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "ground-66",
+   "kind": "meadow",
+   "points": [
+    {
+     "x": 5630,
+     "y": 1000
+    },
+    {
+     "x": 6200,
+     "y": 1000
+    },
+    {
+     "x": 6500,
+     "y": 985
+    },
+    {
+     "x": 6800,
+     "y": 990
+    },
+    {
+     "x": 7180,
+     "y": 980
+    },
+    {
+     "x": 7186,
+     "y": 1040
+    },
+    {
+     "x": 7190,
+     "y": 1750
+    },
+    {
+     "x": 5620,
+     "y": 1750
+    },
+    {
+     "x": 5624,
+     "y": 1060
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "ground-83",
+   "kind": "meadow",
+   "points": [
+    {
+     "x": 7640,
+     "y": 985
+    },
+    {
+     "x": 7900,
+     "y": 990
+    },
+    {
+     "x": 8000,
+     "y": 990
+    },
+    {
+     "x": 8006,
+     "y": 1050
+    },
+    {
+     "x": 8010,
+     "y": 1750
+    },
+    {
+     "x": 7630,
+     "y": 1750
+    },
+    {
+     "x": 7634,
+     "y": 1045
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "ground-85",
+   "kind": "meadow",
+   "points": [
+    {
+     "x": 8010,
+     "y": 750
+    },
+    {
+     "x": 8300,
+     "y": 745
+    },
+    {
+     "x": 8600,
+     "y": 760
+    },
+    {
+     "x": 8900,
+     "y": 740
+    },
+    {
+     "x": 9300,
+     "y": 760
+    },
+    {
+     "x": 9700,
+     "y": 770
+    },
+    {
+     "x": 10100,
+     "y": 760
+    },
+    {
+     "x": 10500,
+     "y": 780
+    },
+    {
+     "x": 10700,
+     "y": 800
+    },
+    {
+     "x": 10706,
+     "y": 860
+    },
+    {
+     "x": 10710,
+     "y": 1750
+    },
+    {
+     "x": 8000,
+     "y": 1750
+    },
+    {
+     "x": 8004,
+     "y": 810
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "soil-86",
+   "kind": "soil",
+   "points": [
+    {
+     "x": 8000,
+     "y": 990
+    },
+    {
+     "x": 8000,
+     "y": 760
+    },
+    {
+     "x": 8015,
+     "y": 750
+    },
+    {
+     "x": 8030,
+     "y": 990
+    }
+   ],
+   "grassTop": true
+  },
+  {
+   "id": "ground-106",
+   "kind": "meadow",
+   "points": [
+    {
+     "x": 10700,
+     "y": 800
+    },
+    {
+     "x": 10760,
+     "y": 640
+    },
+    {
+     "x": 11000,
+     "y": 630
+    },
+    {
+     "x": 11040,
+     "y": 470
+    },
+    {
+     "x": 11320,
+     "y": 465
+    },
+    {
+     "x": 11360,
+     "y": 330
+    },
+    {
+     "x": 11700,
+     "y": 320
+    },
+    {
+     "x": 12100,
+     "y": 310
+    },
+    {
+     "x": 12500,
+     "y": 318
+    },
+    {
+     "x": 12900,
+     "y": 330
+    },
+    {
+     "x": 12906,
+     "y": 390
+    },
+    {
+     "x": 12910,
+     "y": 1750
+    },
+    {
+     "x": 10690,
+     "y": 1750
+    },
+    {
+     "x": 10694,
+     "y": 860
+    }
+   ],
+   "grassTop": true
+  }
+ ],
+ "platforms": [
+  {
+   "id": "branch-21",
+   "kind": "branch",
+   "points": [
+    {
+     "x": 2300,
+     "y": 616
+    },
+    {
+     "x": 2430,
+     "y": 606
+    },
+    {
+     "x": 2560,
+     "y": 614
+    }
+   ]
+  },
+  {
+   "id": "branch-22",
+   "kind": "branch",
+   "points": [
+    {
+     "x": 2650,
+     "y": 476
+    },
+    {
+     "x": 2775,
+     "y": 466
+    },
+    {
+     "x": 2900,
+     "y": 474
+    }
+   ]
+  },
+  {
+   "id": "branch-100",
+   "kind": "branch",
+   "points": [
+    {
+     "x": 9560,
+     "y": 606
+    },
+    {
+     "x": 9660,
+     "y": 596
+    },
+    {
+     "x": 9760,
+     "y": 604
+    }
+   ]
+  },
+  {
+   "id": "branch-101",
+   "kind": "branch",
+   "points": [
+    {
+     "x": 9800,
+     "y": 456
+    },
+    {
+     "x": 9900,
+     "y": 446
+    },
+    {
+     "x": 10000,
+     "y": 454
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "spawn-2",
+   "type": "spawn",
+   "x": 420,
+   "y": 860
+  },
+  {
+   "id": "sign-3",
+   "type": "sign",
+   "x": 650,
+   "y": 892,
+   "props": {
+    "text": "[←] [→] to walk",
+    "w": 420,
+    "h": 500
+   }
+  },
+  {
+   "id": "seed-4",
+   "type": "seed",
+   "x": 760,
+   "y": 832
+  },
+  {
+   "id": "seed-5",
+   "type": "seed",
+   "x": 828,
+   "y": 833
+  },
+  {
+   "id": "seed-6",
+   "type": "seed",
+   "x": 896,
+   "y": 835
+  },
+  {
+   "id": "seed-7",
+   "type": "seed",
+   "x": 964,
+   "y": 837
+  },
+  {
+   "id": "seed-8",
+   "type": "seed",
+   "x": 1032,
+   "y": 838
+  },
+  {
+   "id": "seed-9",
+   "type": "seed",
+   "x": 1100,
+   "y": 840
+  },
+  {
+   "id": "sign-11",
+   "type": "sign",
+   "x": 1120,
+   "y": 900,
+   "props": {
+    "text": "[Space] to jump. Hold it to jump higher!",
+    "w": 380,
+    "h": 500
+   }
+  },
+  {
+   "id": "seed-12",
+   "type": "seed",
+   "x": 1220,
+   "y": 800
+  },
+  {
+   "id": "seed-13",
+   "type": "seed",
+   "x": 1275,
+   "y": 715
+  },
+  {
+   "id": "seed-14",
+   "type": "seed",
+   "x": 1330,
+   "y": 680
+  },
+  {
+   "id": "seed-15",
+   "type": "seed",
+   "x": 1385,
+   "y": 715
+  },
+  {
+   "id": "seed-16",
+   "type": "seed",
+   "x": 1440,
+   "y": 800
+  },
+  {
+   "id": "bug-17",
+   "type": "bug",
+   "x": 1600,
+   "y": 760
+  },
+  {
+   "id": "bug-18",
+   "type": "bug",
+   "x": 1700,
+   "y": 700
+  },
+  {
+   "id": "checkpoint-19",
+   "type": "checkpoint",
+   "x": 1850,
+   "y": 900
+  },
+  {
+   "id": "sign-20",
+   "type": "sign",
+   "x": 2160,
+   "y": 758,
+   "props": {
+    "text": "Jump up through branches. [↓] + [Space] drops back down",
+    "w": 460,
+    "h": 500
+   }
+  },
+  {
+   "id": "seed-23",
+   "type": "seed",
+   "x": 2330,
+   "y": 756
+  },
+  {
+   "id": "seed-24",
+   "type": "seed",
+   "x": 2397,
+   "y": 755
+  },
+  {
+   "id": "seed-25",
+   "type": "seed",
+   "x": 2463,
+   "y": 757
+  },
+  {
+   "id": "seed-26",
+   "type": "seed",
+   "x": 2530,
+   "y": 760
+  },
+  {
+   "id": "seed-27",
+   "type": "seed",
+   "x": 2330,
+   "y": 560
+  },
+  {
+   "id": "seed-28",
+   "type": "seed",
+   "x": 2396,
+   "y": 560
+  },
+  {
+   "id": "seed-29",
+   "type": "seed",
+   "x": 2462,
+   "y": 560
+  },
+  {
+   "id": "seed-30",
+   "type": "seed",
+   "x": 2528,
+   "y": 560
+  },
+  {
+   "id": "seed-31",
+   "type": "seed",
+   "x": 2680,
+   "y": 420
+  },
+  {
+   "id": "seed-32",
+   "type": "seed",
+   "x": 2746,
+   "y": 420
+  },
+  {
+   "id": "seed-33",
+   "type": "seed",
+   "x": 2812,
+   "y": 420
+  },
+  {
+   "id": "seed-34",
+   "type": "seed",
+   "x": 2878,
+   "y": 420
+  },
+  {
+   "id": "golden-seed-35",
+   "type": "golden-seed",
+   "x": 2860,
+   "y": 330,
+   "props": {
+    "note": "Golden seed 1: top of the branch climb"
+   }
+  },
+  {
+   "id": "journal-36",
+   "type": "journal",
+   "x": 2450,
+   "y": 700,
+   "props": {
+    "title": "Rattan Palm",
+    "text": "Rattan is a climbing palm covered in sharp spines. It hooks onto trees to climb up into the sunlight. Ouch! Better jump over it."
+   }
+  },
+  {
+   "id": "seed-38",
+   "type": "seed",
+   "x": 3030,
+   "y": 700
+  },
+  {
+   "id": "seed-39",
+   "type": "seed",
+   "x": 3080,
+   "y": 622
+  },
+  {
+   "id": "seed-40",
+   "type": "seed",
+   "x": 3130,
+   "y": 590
+  },
+  {
+   "id": "seed-41",
+   "type": "seed",
+   "x": 3180,
+   "y": 622
+  },
+  {
+   "id": "seed-42",
+   "type": "seed",
+   "x": 3230,
+   "y": 700
+  },
+  {
+   "id": "killzone-43",
+   "type": "killzone",
+   "x": 3000,
+   "y": 1200,
+   "props": {
+    "w": 260,
+    "h": 600
+   }
+  },
+  {
+   "id": "checkpoint-44",
+   "type": "checkpoint",
+   "x": 3800,
+   "y": 860
+  },
+  {
+   "id": "sign-46",
+   "type": "sign",
+   "x": 3880,
+   "y": 875,
+   "props": {
+    "text": "Too low for Lemmy to stand! Hold [Shift] to Dash",
+    "w": 300,
+    "h": 500
+   }
+  },
+  {
+   "id": "seed-47",
+   "type": "seed",
+   "x": 4060,
+   "y": 874
+  },
+  {
+   "id": "seed-48",
+   "type": "seed",
+   "x": 4127,
+   "y": 874
+  },
+  {
+   "id": "seed-49",
+   "type": "seed",
+   "x": 4193,
+   "y": 875
+  },
+  {
+   "id": "seed-50",
+   "type": "seed",
+   "x": 4260,
+   "y": 875
+  },
+  {
+   "id": "seed-51",
+   "type": "seed",
+   "x": 4327,
+   "y": 875
+  },
+  {
+   "id": "seed-52",
+   "type": "seed",
+   "x": 4393,
+   "y": 875
+  },
+  {
+   "id": "seed-53",
+   "type": "seed",
+   "x": 4460,
+   "y": 876
+  },
+  {
+   "id": "checkpoint-54",
+   "type": "checkpoint",
+   "x": 4700,
+   "y": 902
+  },
+  {
+   "id": "seed-55",
+   "type": "seed",
+   "x": 4800,
+   "y": 866
+  },
+  {
+   "id": "seed-56",
+   "type": "seed",
+   "x": 4888,
+   "y": 872
+  },
+  {
+   "id": "seed-57",
+   "type": "seed",
+   "x": 4975,
+   "y": 878
+  },
+  {
+   "id": "seed-58",
+   "type": "seed",
+   "x": 5063,
+   "y": 887
+  },
+  {
+   "id": "seed-59",
+   "type": "seed",
+   "x": 5150,
+   "y": 897
+  },
+  {
+   "id": "seed-60",
+   "type": "seed",
+   "x": 5238,
+   "y": 907
+  },
+  {
+   "id": "seed-61",
+   "type": "seed",
+   "x": 5325,
+   "y": 917
+  },
+  {
+   "id": "seed-62",
+   "type": "seed",
+   "x": 5413,
+   "y": 926
+  },
+  {
+   "id": "seed-63",
+   "type": "seed",
+   "x": 5500,
+   "y": 935
+  },
+  {
+   "id": "sign-65",
+   "type": "sign",
+   "x": 5480,
+   "y": 983,
+   "props": {
+    "text": "Too tall to Dash over? Let go of [Shift] and jump in Stride!",
+    "w": 300,
+    "h": 500
+   }
+  },
+  {
+   "id": "trigger-67",
+   "type": "trigger",
+   "x": 6250,
+   "y": 1000,
+   "props": {
+    "event": "hornbill-flyover",
+    "w": 120,
+    "h": 600
+   }
+  },
+  {
+   "id": "journal-68",
+   "type": "journal",
+   "x": 6560,
+   "y": 900,
+   "props": {
+    "title": "Rhinoceros Hornbill",
+    "text": "This big bird has a bright red-and-yellow \"casque\" on top of its beak, and its wings whoosh loudly. Hornbills swallow fruit and drop the seeds far away, planting new trees all over the forest!"
+   }
+  },
+  {
+   "id": "rattan-69",
+   "type": "rattan",
+   "x": 6750,
+   "y": 989,
+   "props": {
+    "w": 150
+   }
+  },
+  {
+   "id": "seed-70",
+   "type": "seed",
+   "x": 6640,
+   "y": 900
+  },
+  {
+   "id": "seed-71",
+   "type": "seed",
+   "x": 6700,
+   "y": 780
+  },
+  {
+   "id": "seed-72",
+   "type": "seed",
+   "x": 6760,
+   "y": 730
+  },
+  {
+   "id": "seed-73",
+   "type": "seed",
+   "x": 6820,
+   "y": 780
+  },
+  {
+   "id": "seed-74",
+   "type": "seed",
+   "x": 6880,
+   "y": 900
+  },
+  {
+   "id": "checkpoint-75",
+   "type": "checkpoint",
+   "x": 6950,
+   "y": 990
+  },
+  {
+   "id": "sign-76",
+   "type": "sign",
+   "x": 7040,
+   "y": 984,
+   "props": {
+    "text": "Wide gap! Hold [Shift] to Dash, then jump to fly far",
+    "w": 260,
+    "h": 500
+   }
+  },
+  {
+   "id": "killzone-77",
+   "type": "killzone",
+   "x": 7180,
+   "y": 1200,
+   "props": {
+    "w": 460,
+    "h": 600
+   }
+  },
+  {
+   "id": "golden-seed-78",
+   "type": "golden-seed",
+   "x": 7420,
+   "y": 780,
+   "props": {
+    "note": "Golden seed 2: at the top of a long Dash jump"
+   }
+  },
+  {
+   "id": "seed-79",
+   "type": "seed",
+   "x": 7230,
+   "y": 900
+  },
+  {
+   "id": "seed-80",
+   "type": "seed",
+   "x": 7353,
+   "y": 779
+  },
+  {
+   "id": "seed-81",
+   "type": "seed",
+   "x": 7477,
+   "y": 779
+  },
+  {
+   "id": "seed-82",
+   "type": "seed",
+   "x": 7600,
+   "y": 900
+  },
+  {
+   "id": "sign-84",
+   "type": "sign",
+   "x": 7860,
+   "y": 989,
+   "props": {
+    "text": "High ledge! Stride jumps higher than Dash",
+    "w": 260,
+    "h": 500
+   }
+  },
+  {
+   "id": "rattan-87",
+   "type": "rattan",
+   "x": 8420,
+   "y": 751,
+   "props": {
+    "w": 130
+   }
+  },
+  {
+   "id": "rattan-88",
+   "type": "rattan",
+   "x": 8760,
+   "y": 749,
+   "props": {
+    "w": 170
+   }
+  },
+  {
+   "id": "seed-89",
+   "type": "seed",
+   "x": 8340,
+   "y": 680
+  },
+  {
+   "id": "seed-90",
+   "type": "seed",
+   "x": 8393,
+   "y": 541
+  },
+  {
+   "id": "seed-91",
+   "type": "seed",
+   "x": 8447,
+   "y": 541
+  },
+  {
+   "id": "seed-92",
+   "type": "seed",
+   "x": 8500,
+   "y": 680
+  },
+  {
+   "id": "seed-93",
+   "type": "seed",
+   "x": 8670,
+   "y": 680
+  },
+  {
+   "id": "seed-94",
+   "type": "seed",
+   "x": 8733,
+   "y": 524
+  },
+  {
+   "id": "seed-95",
+   "type": "seed",
+   "x": 8797,
+   "y": 524
+  },
+  {
+   "id": "seed-96",
+   "type": "seed",
+   "x": 8860,
+   "y": 680
+  },
+  {
+   "id": "checkpoint-97",
+   "type": "checkpoint",
+   "x": 9000,
+   "y": 745
+  },
+  {
+   "id": "banana-plant-98",
+   "type": "banana-plant",
+   "x": 9330,
+   "y": 761,
+   "props": {
+    "scale": 1.1
+   }
+  },
+  {
+   "id": "fruit-99",
+   "type": "fruit",
+   "x": 9420,
+   "y": 693,
+   "props": {
+    "name": "Wild Banana",
+    "rhyme": "Soft and sweet, but full of seeds!\nA wild banana fills our needs…\nbut is it the TASTIEST? Hmm, not quite.\nLet's keep on searching, left and right!",
+    "score": 6
+   }
+  },
+  {
+   "id": "golden-seed-102",
+   "type": "golden-seed",
+   "x": 9930,
+   "y": 370,
+   "props": {
+    "note": "Golden seed 3: tree-top branches"
+   }
+  },
+  {
+   "id": "journal-103",
+   "type": "journal",
+   "x": 9660,
+   "y": 540,
+   "props": {
+    "title": "Wild Banana",
+    "text": "Wild bananas are packed with hard black seeds, not like the soft ones in shops today. They grew here in the warm forests long before there were any farms at all."
+   }
+  },
+  {
+   "id": "rattan-104",
+   "type": "rattan",
+   "x": 10200,
+   "y": 765,
+   "props": {
+    "w": 140
+   }
+  },
+  {
+   "id": "trigger-105",
+   "type": "trigger",
+   "x": 10400,
+   "y": 775,
+   "props": {
+    "event": "chase-off",
+    "w": 120,
+    "h": 600
+   }
+  },
+  {
+   "id": "checkpoint-107",
+   "type": "checkpoint",
+   "x": 10880,
+   "y": 635
+  },
+  {
+   "id": "seed-108",
+   "type": "seed",
+   "x": 10800,
+   "y": 588
+  },
+  {
+   "id": "seed-109",
+   "type": "seed",
+   "x": 10890,
+   "y": 585
+  },
+  {
+   "id": "seed-110",
+   "type": "seed",
+   "x": 10980,
+   "y": 581
+  },
+  {
+   "id": "seed-111",
+   "type": "seed",
+   "x": 11080,
+   "y": 419
+  },
+  {
+   "id": "seed-112",
+   "type": "seed",
+   "x": 11153,
+   "y": 418
+  },
+  {
+   "id": "seed-113",
+   "type": "seed",
+   "x": 11227,
+   "y": 417
+  },
+  {
+   "id": "seed-114",
+   "type": "seed",
+   "x": 11300,
+   "y": 415
+  },
+  {
+   "id": "trigger-115",
+   "type": "trigger",
+   "x": 11100,
+   "y": 470,
+   "props": {
+    "event": "hornbill-land",
+    "w": 120,
+    "h": 600
+   }
+  },
+  {
+   "id": "dead-branch-116",
+   "type": "dead-branch",
+   "x": 12380,
+   "y": 318,
+   "props": {
+    "scale": 1.1
+   }
+  },
+  {
+   "id": "hornbill-117",
+   "type": "hornbill",
+   "x": 12520,
+   "y": 70
+  },
+  {
+   "id": "journal-118",
+   "type": "journal",
+   "x": 11500,
+   "y": 270,
+   "props": {
+    "title": "Sundaland",
+    "text": "At the end of the Ice Age the giant ice sheets melted and the sea rose about 120 meters. Low valleys flooded, and the hills of \"Sundaland\" became islands, like the one Lemmy and Lizzy call home!"
+   }
+  },
+  {
+   "id": "goal-119",
+   "type": "goal",
+   "x": 12180,
+   "y": 310,
+   "props": {
+    "dialog": [
+     {
+      "who": "Hornbill",
+      "lines": "Well hello, small friends! You followed me far.\nYou're braver than most little critters are!"
+     },
+     {
+      "who": "Lemmy",
+      "lines": "We're bored of seeds and bored of bugs!\nWe want a snack that's worth big hugs!"
+     },
+     {
+      "who": "Hornbill",
+      "lines": "Then listen close, I'll tell you true:\nthe Tastiest Fruit is waiting for you."
+     },
+     {
+      "who": "Hornbill",
+      "lines": "It grows on the mountain, way up high,\nwhere misty clouds go drifting by."
+     },
+     {
+      "who": "Hornbill",
+      "lines": "But the sea is rising, day by day…\nso hurry along, be on your way!"
+     },
+     {
+      "who": "Lizzy",
+      "lines": "The Tastiest Fruit! Oh Lemmy, let's go!\nThrough jungle and river, through high and low!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "grass-tuft-120",
+   "type": "grass-tuft",
+   "x": -160,
+   "y": 904,
+   "props": {
+    "scale": 1.233011373706633
+   }
+  },
+  {
+   "id": "grass-tuft-121",
+   "type": "grass-tuft",
+   "x": -68,
+   "y": 905,
+   "props": {
+    "scale": 0.954898210035124
+   }
+  },
+  {
+   "id": "grass-tuft-122",
+   "type": "grass-tuft",
+   "x": 197,
+   "y": 908,
+   "props": {
+    "scale": 1.142200936443266
+   }
+  },
+  {
+   "id": "fern-123",
+   "type": "fern",
+   "x": 334,
+   "y": 910,
+   "props": {
+    "scale": 0.7002671008930854,
+    "flip": false
+   }
+  },
+  {
+   "id": "grass-tuft-124",
+   "type": "grass-tuft",
+   "x": 447,
+   "y": 903,
+   "props": {
+    "scale": 0.9633632556364701
+   }
+  },
+  {
+   "id": "flower-125",
+   "type": "flower",
+   "x": 543,
+   "y": 900,
+   "props": {
+    "scale": 0.9472286249265208
+   }
+  },
+  {
+   "id": "flower-126",
+   "type": "flower",
+   "x": 930,
+   "y": 900,
+   "props": {
+    "scale": 1.182823577142704
+   }
+  },
+  {
+   "id": "grass-tuft-127",
+   "type": "grass-tuft",
+   "x": 1026,
+   "y": 902,
+   "props": {
+    "scale": 1.0459123862189765
+   }
+  },
+  {
+   "id": "fern-128",
+   "type": "fern",
+   "x": 1331,
+   "y": 903,
+   "props": {
+    "scale": 0.756591876250036,
+    "flip": true
+   }
+  },
+  {
+   "id": "fern-129",
+   "type": "fern",
+   "x": 1476,
+   "y": 901,
+   "props": {
+    "scale": 0.7067937836082623,
+    "flip": false
+   }
+  },
+  {
+   "id": "bush-130",
+   "type": "bush",
+   "x": 1572,
+   "y": 904,
+   "props": {
+    "scale": 0.7984779184677069,
+    "back": true
+   }
+  },
+  {
+   "id": "grass-tuft-131",
+   "type": "grass-tuft",
+   "x": 1664,
+   "y": 902,
+   "props": {
+    "scale": 0.8905127511781235
+   }
+  },
+  {
+   "id": "fern-132",
+   "type": "fern",
+   "x": 2050,
+   "y": 766,
+   "props": {
+    "scale": 1.021407208182573,
+    "flip": true
+   }
+  },
+  {
+   "id": "fern-133",
+   "type": "fern",
+   "x": 2321,
+   "y": 762,
+   "props": {
+    "scale": 0.9480507821999727,
+    "flip": false
+   }
+  },
+  {
+   "id": "flower-134",
+   "type": "flower",
+   "x": 2406,
+   "y": 759,
+   "props": {
+    "scale": 1.1898023724508482
+   }
+  },
+  {
+   "id": "flower-135",
+   "type": "flower",
+   "x": 2523,
+   "y": 764,
+   "props": {
+    "scale": 0.9129421560619688
+   }
+  },
+  {
+   "id": "grass-tuft-136",
+   "type": "grass-tuft",
+   "x": 2642,
+   "y": 768,
+   "props": {
+    "scale": 1.023413911053638
+   }
+  },
+  {
+   "id": "fern-137",
+   "type": "fern",
+   "x": 2788,
+   "y": 776,
+   "props": {
+    "scale": 0.764320878528208,
+    "flip": true
+   }
+  },
+  {
+   "id": "flower-138",
+   "type": "flower",
+   "x": 2898,
+   "y": 774,
+   "props": {
+    "scale": 0.9833467940722345
+   }
+  },
+  {
+   "id": "tree-139",
+   "type": "tree",
+   "x": 0,
+   "y": 922,
+   "props": {
+    "scale": 0.9589061478660005,
+    "seed": 9639,
+    "flip": false
+   }
+  },
+  {
+   "id": "tree-140",
+   "type": "tree",
+   "x": 1083,
+   "y": 920,
+   "props": {
+    "scale": 0.9078274166480765,
+    "seed": 7634,
+    "flip": true
+   }
+  },
+  {
+   "id": "tree-141",
+   "type": "tree",
+   "x": 2009,
+   "y": 862,
+   "props": {
+    "scale": 0.9360466409875297,
+    "seed": 4647,
+    "flip": true
+   }
+  },
+  {
+   "id": "fern-142",
+   "type": "fern",
+   "x": 100,
+   "y": 933,
+   "props": {
+    "scale": 1.5660878158482199,
+    "front": true,
+    "dark": true
+   }
+  },
+  {
+   "id": "fern-143",
+   "type": "fern",
+   "x": 1526,
+   "y": 925,
+   "props": {
+    "scale": 1.5375921059574895,
+    "front": true,
+    "dark": true
+   }
+  },
+  {
+   "id": "fern-144",
+   "type": "fern",
+   "x": 2438,
+   "y": 786,
+   "props": {
+    "scale": 1.7907762327654175,
+    "front": true,
+    "dark": true
+   }
+  },
+  {
+   "id": "fern-145",
+   "type": "fern",
+   "x": 3280,
+   "y": 788,
+   "props": {
+    "scale": 0.7987759590608887,
+    "flip": false
+   }
+  },
+  {
+   "id": "grass-tuft-146",
+   "type": "grass-tuft",
+   "x": 3436,
+   "y": 792,
+   "props": {
+    "scale": 0.9913005121477416
+   }
+  },
+  {
+   "id": "flower-147",
+   "type": "flower",
+   "x": 3540,
+   "y": 802,
+   "props": {
+    "scale": 0.8011762751271838
+   }
+  },
+  {
+   "id": "flower-148",
+   "type": "flower",
+   "x": 3648,
+   "y": 824,
+   "props": {
+    "scale": 0.9209928352949176
+   }
+  },
+  {
+   "id": "fern-149",
+   "type": "fern",
+   "x": 3999,
+   "y": 906,
+   "props": {
+    "scale": 0.8269344267095133,
+    "flip": false
+   }
+  },
+  {
+   "id": "mushroom-150",
+   "type": "mushroom",
+   "x": 4220,
+   "y": 905,
+   "props": {
+    "scale": 1.043671060280721
+   }
+  },
+  {
+   "id": "flower-151",
+   "type": "flower",
+   "x": 4331,
+   "y": 905,
+   "props": {
+    "scale": 0.9524996508623006
+   }
+  },
+  {
+   "id": "grass-tuft-152",
+   "type": "grass-tuft",
+   "x": 4460,
+   "y": 906,
+   "props": {
+    "scale": 0.8052332389192811
+   }
+  },
+  {
+   "id": "tree-153",
+   "type": "tree",
+   "x": 3440,
+   "y": 808,
+   "props": {
+    "scale": 0.9115041738662423,
+    "seed": 2516,
+    "flip": false
+   }
+  },
+  {
+   "id": "tree-154",
+   "type": "tree",
+   "x": 4331,
+   "y": 921,
+   "props": {
+    "scale": 1.2400846457062684,
+    "seed": 3816,
+    "flip": true
+   }
+  },
+  {
+   "id": "tree-155",
+   "type": "tree",
+   "x": 5016,
+   "y": 952,
+   "props": {
+    "scale": 1.121565920613504,
+    "seed": 5210,
+    "flip": true
+   }
+  },
+  {
+   "id": "fern-156",
+   "type": "fern",
+   "x": 3540,
+   "y": 828,
+   "props": {
+    "scale": 1.4465027652897418,
+    "front": true,
+    "dark": true
+   }
+  },
+  {
+   "id": "grass-tuft-157",
+   "type": "grass-tuft",
+   "x": 5785,
+   "y": 1004,
+   "props": {
+    "scale": 1.2184069989334825
+   }
+  },
+  {
+   "id": "fern-158",
+   "type": "fern",
+   "x": 5885,
+   "y": 1006,
+   "props": {
+    "scale": 0.9905009744178974,
+    "flip": false
+   }
+  },
+  {
+   "id": "fern-159",
+   "type": "fern",
+   "x": 6019,
+   "y": 1006,
+   "props": {
+    "scale": 1.0957282809520739,
+    "flip": true
+   }
+  },
+  {
+   "id": "grass-tuft-160",
+   "type": "grass-tuft",
+   "x": 6275,
+   "y": 1000,
+   "props": {
+    "scale": 1.241059969803812
+   }
+  },
+  {
+   "id": "flower-161",
+   "type": "flower",
+   "x": 6416,
+   "y": 993,
+   "props": {
+    "scale": 0.9596266287190964
+   }
+  },
+  {
+   "id": "grass-tuft-162",
+   "type": "grass-tuft",
+   "x": 6496,
+   "y": 989,
+   "props": {
+    "scale": 1.2297320160221923
+   }
+  },
+  {
+   "id": "fern-163",
+   "type": "fern",
+   "x": 6567,
+   "y": 992,
+   "props": {
+    "scale": 0.835078032377678,
+    "flip": true
+   }
+  },
+  {
+   "id": "bush-164",
+   "type": "bush",
+   "x": 6644,
+   "y": 995,
+   "props": {
+    "scale": 0.8568907397598451,
+    "back": true
+   }
+  },
+  {
+   "id": "tree-165",
+   "type": "tree",
+   "x": 5830,
+   "y": 1020,
+   "props": {
+    "scale": 1.095998180772177,
+    "seed": 2286,
+    "flip": false
+   }
+  },
+  {
+   "id": "tree-166",
+   "type": "tree",
+   "x": 6916,
+   "y": 1007,
+   "props": {
+    "scale": 0.881093306481416,
+    "seed": 4630,
+    "flip": true
+   }
+  },
+  {
+   "id": "fern-167",
+   "type": "fern",
+   "x": 5930,
+   "y": 1030,
+   "props": {
+    "scale": 1.681401247615647,
+    "front": true,
+    "dark": true
+   }
+  },
+  {
+   "id": "tree-168",
+   "type": "tree",
+   "x": 7840,
+   "y": 1009,
+   "props": {
+    "scale": 1.1901157501806112,
+    "seed": 8134,
+    "flip": false
+   }
+  },
+  {
+   "id": "flower-169",
+   "type": "flower",
+   "x": 8050,
+   "y": 753,
+   "props": {
+    "scale": 1.1196594552694166
+   }
+  },
+  {
+   "id": "flower-170",
+   "type": "flower",
+   "x": 8146,
+   "y": 752,
+   "props": {
+    "scale": 0.828058984143687
+   }
+  },
+  {
+   "id": "fern-171",
+   "type": "fern",
+   "x": 8303,
+   "y": 751,
+   "props": {
+    "scale": 0.9690594542161839,
+    "flip": false
+   }
+  },
+  {
+   "id": "flower-172",
+   "type": "flower",
+   "x": 8567,
+   "y": 762,
+   "props": {
+    "scale": 1.0696620823208531
+   }
+  },
+  {
+   "id": "mushroom-173",
+   "type": "mushroom",
+   "x": 9576,
+   "y": 771,
+   "props": {
+    "scale": 1.0158073452374932
+   }
+  },
+  {
+   "id": "grass-tuft-174",
+   "type": "grass-tuft",
+   "x": 9801,
+   "y": 771,
+   "props": {
+    "scale": 0.8572611906366708
+   }
+  },
+  {
+   "id": "grass-tuft-175",
+   "type": "grass-tuft",
+   "x": 9941,
+   "y": 768,
+   "props": {
+    "scale": 0.9666607436103098
+   }
+  },
+  {
+   "id": "grass-tuft-176",
+   "type": "grass-tuft",
+   "x": 10023,
+   "y": 766,
+   "props": {
+    "scale": 1.0855034532423613
+   }
+  },
+  {
+   "id": "grass-tuft-177",
+   "type": "grass-tuft",
+   "x": 10368,
+   "y": 777,
+   "props": {
+    "scale": 1.200423007272381
+   }
+  },
+  {
+   "id": "fern-178",
+   "type": "fern",
+   "x": 10511,
+   "y": 787,
+   "props": {
+    "scale": 1.0851266838540914,
+    "flip": false
+   }
+  },
+  {
+   "id": "grass-tuft-179",
+   "type": "grass-tuft",
+   "x": 10653,
+   "y": 799,
+   "props": {
+    "scale": 1.2858227786542022
+   }
+  },
+  {
+   "id": "tree-180",
+   "type": "tree",
+   "x": 8210,
+   "y": 767,
+   "props": {
+    "scale": 1.1461741324030674,
+    "seed": 4966,
+    "flip": false
+   }
+  },
+  {
+   "id": "tree-181",
+   "type": "tree",
+   "x": 9270,
+   "y": 779,
+   "props": {
+    "scale": 1.024053510545778,
+    "seed": 2934,
+    "flip": true
+   }
+  },
+  {
+   "id": "tree-182",
+   "type": "tree",
+   "x": 10362,
+   "y": 793,
+   "props": {
+    "scale": 1.0147000222302507,
+    "seed": 2832,
+    "flip": false
+   }
+  },
+  {
+   "id": "fern-183",
+   "type": "fern",
+   "x": 9762,
+   "y": 798,
+   "props": {
+    "scale": 1.6560355294291096,
+    "front": true,
+    "dark": true
+   }
+  },
+  {
+   "id": "rock-184",
+   "type": "rock",
+   "x": 11161,
+   "y": 478,
+   "props": {
+    "scale": 0.8678414416815348,
+    "back": true
+   }
+  },
+  {
+   "id": "mushroom-185",
+   "type": "mushroom",
+   "x": 11234,
+   "y": 471,
+   "props": {
+    "scale": 0.8969675614018774
+   }
+  },
+  {
+   "id": "grass-tuft-186",
+   "type": "grass-tuft",
+   "x": 11334,
+   "y": 422,
+   "props": {
+    "scale": 1.0342353264029303
+   }
+  },
+  {
+   "id": "fern-187",
+   "type": "fern",
+   "x": 11457,
+   "y": 333,
+   "props": {
+    "scale": 1.0895148510064534,
+    "flip": false
+   }
+  },
+  {
+   "id": "flower-188",
+   "type": "flower",
+   "x": 11555,
+   "y": 328,
+   "props": {
+    "scale": 0.9956211163641984
+   }
+  },
+  {
+   "id": "mushroom-189",
+   "type": "mushroom",
+   "x": 11820,
+   "y": 321,
+   "props": {
+    "scale": 0.9288484363485353
+   }
+  },
+  {
+   "id": "fern-190",
+   "type": "fern",
+   "x": 11970,
+   "y": 319,
+   "props": {
+    "scale": 0.9468866964089158,
+    "flip": true
+   }
+  },
+  {
+   "id": "grass-tuft-191",
+   "type": "grass-tuft",
+   "x": 12226,
+   "y": 317,
+   "props": {
+    "scale": 1.247892579458604
+   }
+  },
+  {
+   "id": "mushroom-192",
+   "type": "mushroom",
+   "x": 12337,
+   "y": 319,
+   "props": {
+    "scale": 1.003729541880884
+   }
+  },
+  {
+   "id": "bush-193",
+   "type": "bush",
+   "x": 12426,
+   "y": 325,
+   "props": {
+    "scale": 0.7065912136373069,
+    "back": true
+   }
+  },
+  {
+   "id": "fern-194",
+   "type": "fern",
+   "x": 12546,
+   "y": 325,
+   "props": {
+    "scale": 0.9317877355179693,
+    "flip": false
+   }
+  },
+  {
+   "id": "grass-tuft-195",
+   "type": "grass-tuft",
+   "x": 12777,
+   "y": 330,
+   "props": {
+    "scale": 1.2398798641934432
+   }
+  },
+  {
+   "id": "fern-196",
+   "type": "fern",
+   "x": 12858,
+   "y": 335,
+   "props": {
+    "scale": 0.8957764851841035,
+    "flip": false
+   }
+  },
+  {
+   "id": "tree-197",
+   "type": "tree",
+   "x": 10900,
+   "y": 654,
+   "props": {
+    "scale": 1.225668924476797,
+    "seed": 6690,
+    "flip": false
+   }
+  },
+  {
+   "id": "tree-198",
+   "type": "tree",
+   "x": 11692,
+   "y": 340,
+   "props": {
+    "scale": 1.1211023620660894,
+    "seed": 435,
+    "flip": false
+   }
+  },
+  {
+   "id": "tree-199",
+   "type": "tree",
+   "x": 12789,
+   "y": 347,
+   "props": {
+    "scale": 1.0358144764722392,
+    "seed": 4597,
+    "flip": false
+   }
+  },
+  {
+   "id": "fern-200",
+   "type": "fern",
+   "x": 12149,
+   "y": 341,
+   "props": {
+    "scale": 1.71895475290667,
+    "front": true,
+    "dark": true
+   }
+  }
+ ],
+ "cameraZones": [
+  {
+   "id": "vista",
+   "x": 11380,
+   "y": -400,
+   "w": 1600,
+   "h": 1000,
+   "zoom": 0.72,
+   "focus": {
+    "x": 12150,
+    "y": 120
+   }
+  },
+  {
+   "id": "tunnel",
+   "x": 3950,
+   "y": 500,
+   "w": 620,
+   "h": 500,
+   "zoom": 1.12
+  }
+ ]
+}

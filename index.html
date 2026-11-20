@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lemmy &amp; Lizzy: Search for the Tastiest Fruit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Caveat+Brush&family=Luckiest+Guy&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="./assets/game-DDT8Iw4z.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/CanvasPool-DIqQKUma.js">
+  <link rel="modulepreload" crossorigin href="./assets/Filter-2ZER7oe7.js">
+  <link rel="modulepreload" crossorigin href="./assets/canvasUtils-u_waqqhT.js">
+  <link rel="modulepreload" crossorigin href="./assets/Cache-z3ldJWVP.js">
+  <link rel="modulepreload" crossorigin href="./assets/defaultFilter.vert-_nVViJru.js">
+  <link rel="modulepreload" crossorigin href="./assets/getTextureBatchBindGroup-wuPsKNGO.js">
+  <link rel="modulepreload" crossorigin href="./assets/GCManagedHash-Dcz225pq.js">
+  <link rel="modulepreload" crossorigin href="./assets/GraphicsContext-D7pT-SHd.js">
+  <link rel="modulepreload" crossorigin href="./assets/BatchableSprite-wlMuIfkq.js">
+  <link rel="modulepreload" crossorigin href="./assets/Graphics-C_t5hUqJ.js">
+  <link rel="modulepreload" crossorigin href="./assets/TextStyle-BmYXzqwm.js">
+  <link rel="stylesheet" crossorigin href="./assets/game-DBUBMMnh.css">
+</head>
+<body>
+  <div id="stage"></div>
+  <div id="ui">
+    <div id="hud" hidden>
+      <div class="pill" title="Fruit basket: seeds you are carrying"><span class="ico seed"></span><b id="hud-seeds">0</b></div>
+      <div class="pill" title="Golden seeds"><span class="ico golden"></span><b id="hud-golden">0</b><small>of 3</small></div>
+      <div class="pill" title="Field Journal pages"><span class="ico page"></span><b id="hud-pages">0</b><small>of <span id="hud-pages-max">0</span></small></div>
+    </div>
+    <div id="boss" hidden><span>Pit Viper</span><div id="boss-leaves"></div></div>
+    <div id="prompt" hidden></div>
+    <div id="toast" hidden></div>
+    <div id="dialog" hidden>
+      <div class="who" id="dialog-who"></div>
+      <div class="lines" id="dialog-lines"></div>
+      
+    </div>
+    <div id="title" class="card">
+      <div class="credit">Lemmy &amp; Lizzy: Search for the Tastiest Fruit</div>
+      <h1 id="title-name">&nbsp;</h1>
+      <div class="sub" id="title-sub" hidden></div>
+      <div class="story" id="title-story" hidden></div>
+      <div class="start"><span class="play"></span></div>
+      <div class="art">Story by Danny O'Malley · Art style by Sergio Artigas</div>
+    </div>
+    <div id="taste" class="card" hidden>
+      <div class="credit">A Tasting!</div>
+      <h2 id="taste-name"></h2>
+      <div class="story" id="taste-rhyme"></div>
+      <div class="meter"><div class="label">Tasty-o-Meter</div><div class="bar"><i id="taste-bar"></i></div></div>
+      <div class="start">press <kbd>Space</kbd></div>
+    </div>
+    <div id="pause" class="card" hidden>
+      <h2>Paused</h2>
+      <div class="menu">
+        <button id="btn-resume">Resume</button>
+        <button id="btn-restart">Restart from checkpoint</button>
+        <label><input type="checkbox" id="opt-assist" /> Assist: slower game speed</label>
+        <label><input type="checkbox" id="opt-runtoggle" /> Tap to Dash (no holding)</label>
+        <label><input type="checkbox" id="opt-narrate" /> Read the story aloud</label>
+        
+        <label><input type="checkbox" id="opt-shake" checked /> Screen shake</label>
+        <label><input type="checkbox" id="opt-mute" /> Mute sound</label>
+      </div>
+    </div>
+    <div id="done" class="card" hidden>
+      <div class="credit" aria-label="Level complete">★</div>
+      <h2 id="done-name"></h2>
+      <div class="stats" id="done-stats"></div>
+      <div class="story" id="done-next"></div>
+      <div class="start">press <kbd>Enter</kbd> to play again</div>
+    </div>
+    <div id="tuning" hidden></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,297 @@
+{
+ "id": "stage2",
+ "name": "The Brooks",
+ "subtitle": "Game 1 · Stage 2 · rainforest brooks",
+ "width": 0,
+ "next": "stage3",
+ "height": 0,
+ "killY": 0,
+ "palette": {
+  "sky": [
+   "#9ccbd8",
+   "#eef0d0"
+  ],
+  "grade": {
+   "warmth": 0.4,
+   "saturation": 0.95,
+   "paper": 1
+  }
+ },
+ "music": {
+  "theme": "brooks",
+  "tempo": 100
+ },
+ "intro": [
+  "Down by the brooks where the cool waters run,",
+  "the stones are for hopping, the fish are for fun."
+ ],
+ "layers": [
+  {
+   "id": "sky",
+   "depth": 0,
+   "kind": "sky"
+  },
+  {
+   "id": "painted-far",
+   "depth": 0.04,
+   "kind": "image",
+   "src": "/assets/gen/s2-far.webp",
+   "y": 1600,
+   "scale": 2.3,
+   "props": {
+    "haze": 0.3
+   }
+  },
+  {
+   "id": "treeline",
+   "depth": 0.3,
+   "kind": "treeline",
+   "y": 960,
+   "color": "#86a89a",
+   "seed": 9
+  },
+  {
+   "id": "shafts",
+   "depth": 1,
+   "kind": "lightshafts",
+   "seed": 4,
+   "props": {
+    "top": -200,
+    "bottom": 960,
+    "shafts": [
+     {
+      "x": 1300,
+      "w": 160
+     },
+     {
+      "x": 4200,
+      "w": 220
+     },
+     {
+      "x": 6000,
+      "w": 260
+     },
+     {
+      "x": 8200,
+      "w": 180
+     }
+    ]
+   }
+  }
+ ],
+ "terrain": [],
+ "platforms": [],
+ "entities": [],
+ "cameraZones": [
+  {
+   "id": "pool",
+   "x": 5340,
+   "y": 200,
+   "w": 1300,
+   "h": 900,
+   "zoom": 0.85
+  }
+ ],
+ "grid": {
+  "cell": 140,
+  "origin": {
+   "x": -470,
+   "y": 200
+  },
+  "rows": [
+   "T.........................................................................T",
+   "T.........................................................................T",
+   "T.........................................................................T",
+   "T.........................................................................T",
+   "T.........................................................................T",
+   "##########~~~~~####~~~~~~~####~~~~~~~~~###~~~~~~~~~#####~~~~~~~~~~~########",
+   "##########~~~~~####~~~~~~~####~~~~~~~~~###~~~~~~~~~#####~~~~~~~~~~~########",
+   "##########~~~~_####~~~~~~~####~~~~~~~~~###~~~~~~~~#######~~~~~~~~~~########",
+   "##########~~~~#####~~~~~~######~~~~~~~~###~~~~~~~~#######~~~~~~~~~~########",
+   "##########RRRR#####RRRRRR######RRRRRRRR###RRRRRRRR#######RRRRRRRRRR########"
+  ],
+  "things": [
+   "                                                                           ",
+   "                                                                           ",
+   "                                                                           ",
+   "                                              O                O         O ",
+   "    YSooooooo o C   z b    CPm o o  o o C           C QF o ozoo o o   h  F ",
+   "       ?   s s   ?  w s w    ? k k  k k ?  sz M  s     ? s  w k k s    G   ",
+   "                                                                           ",
+   "                                                                           ",
+   "                                                                           ",
+   "                                                                           "
+  ],
+  "notes": {
+   "5,7": {
+    "at": [
+     -60,
+     -57
+    ],
+    "text": "Little brooks ahead. Hop from stone to stone!",
+    "props": {
+     "w": 420,
+     "h": 500
+    }
+   },
+   "5,17": {
+    "at": [
+     0,
+     -59
+    ],
+    "text": "Round, mossy stones tip! Ripples mean a fish is coming",
+    "props": {
+     "w": 420,
+     "h": 500
+    }
+   },
+   "4,20": {
+    "at": [
+     40,
+     140
+    ],
+    "props": {
+     "span": 420,
+     "arc": 230,
+     "period": 2.8
+    }
+   },
+   "4,22": {
+    "at": [
+     0,
+     -60
+    ]
+   },
+   "4,28": {
+    "at": [
+     -20,
+     18
+    ],
+    "text": "Mahseer are big river fish of Southeast Asia, with large golden scales. They can grow longer than a kid is tall, and they swim up clear, fast streams.",
+    "title": "Mahseer"
+   },
+   "5,29": {
+    "at": [
+     -40,
+     -55
+    ],
+    "text": "Pale, cracked stones sink! Keep moving",
+    "props": {
+     "w": 360,
+     "h": 500
+    }
+   },
+   "5,40": {
+    "at": [
+     50,
+     -61
+    ],
+    "text": "Bubbles? The old mahseer is coming up. Ride it across!",
+    "props": {
+     "w": 380,
+     "h": 500
+    }
+   },
+   "5,46": {
+    "at": [
+     -40,
+     -10
+    ],
+    "props": {
+     "w": 420,
+     "depth": 140,
+     "phase": 0
+    }
+   },
+   "5,44": {
+    "at": [
+     -60,
+     0
+    ],
+    "props": {
+     "span": 600,
+     "arc": 330,
+     "period": 3.4,
+     "phase": 1.2
+    }
+   },
+   "3,46": {
+    "at": [
+     -40,
+     -20
+    ],
+    "props": {
+     "note": "Golden seed 1: above the mahseer, at the top of a jump from its back"
+    }
+   },
+   "4,54": {
+    "at": [
+     40,
+     -35
+    ],
+    "props": {
+     "name": "Wild Fig",
+     "rhyme": "A fig! A fig! So sweet and small,\nthe best we've found so far of all…\nbut Lizzy says, with a little grin,\n\"The TASTIEST is still to win!\"",
+     "score": 7
+    }
+   },
+   "5,55": {
+    "at": [
+     0,
+     -52
+    ],
+    "text": "Now all of them together. You can do it!",
+    "props": {
+     "w": 380,
+     "h": 500
+    }
+   },
+   "4,60": {
+    "at": [
+     -40,
+     140
+    ],
+    "props": {
+     "span": 420,
+     "arc": 240,
+     "period": 2.4,
+     "phase": 0.6
+    }
+   },
+   "3,63": {
+    "at": [
+     -55,
+     -40
+    ],
+    "props": {
+     "note": "Golden seed 2: over the sinking pair, needs a Stride jump"
+    }
+   },
+   "3,73": {
+    "at": [
+     30,
+     92
+    ],
+    "props": {
+     "note": "Golden seed 3: past the goal, for explorers"
+    }
+   },
+   "5,71": {
+    "at": [
+     -40,
+     -64
+    ],
+    "dialog": [
+     {
+      "who": "Lizzy",
+      "lines": "We hopped the brooks and didn't fall!\n(Well… maybe once. But that's not all!)"
+     },
+     {
+      "who": "Lemmy",
+      "lines": "Look up! A tree so tall and wide,\nthe canopy's up on the other side!"
+     }
+    ]
+   }
+  }
+ }
+}

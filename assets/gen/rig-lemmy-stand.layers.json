@@ -1,0 +1,47 @@
+{
+ "width": 922,
+ "height": 756,
+ "parts": {
+  "body": {
+   "image": "rig-lemmy-stand.body.webp",
+   "x": 1,
+   "y": 1,
+   "w": 900,
+   "h": 672
+  },
+  "arm": {
+   "image": "rig-lemmy-stand.arm.webp",
+   "x": 674,
+   "y": 366,
+   "w": 247,
+   "h": 164
+  },
+  "farArm": {
+   "image": "rig-lemmy-stand.farArm.webp",
+   "x": 486,
+   "y": 341,
+   "w": 166,
+   "h": 195
+  },
+  "leg": {
+   "image": "rig-lemmy-stand.leg.webp",
+   "x": 660,
+   "y": 559,
+   "w": 208,
+   "h": 186
+  },
+  "farLeg": {
+   "image": "rig-lemmy-stand.farLeg.webp",
+   "x": 531,
+   "y": 586,
+   "w": 138,
+   "h": 169
+  }
+ },
+ "faces": {
+  "blink": "rig-lemmy-stand.body.blink.webp",
+  "happy": "rig-lemmy-stand.body.happy.webp",
+  "ouch": "rig-lemmy-stand.body.ouch.webp",
+  "wow": "rig-lemmy-stand.body.wow.webp"
+ }
+}

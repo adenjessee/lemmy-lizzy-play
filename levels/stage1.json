@@ -1,0 +1,337 @@
+{
+ "id": "stage1",
+ "name": "The Jungle Floor",
+ "subtitle": "Game 1 · Stage 1 · the Sumatran rainforest floor",
+ "width": 0,
+ "height": 0,
+ "killY": 0,
+ "palette": {
+  "sky": [
+   "#9fc7a8",
+   "#e9e2b8"
+  ],
+  "grade": {
+   "warmth": 0.45,
+   "saturation": 0.92,
+   "paper": 1
+  }
+ },
+ "music": {
+  "theme": "meadow",
+  "tempo": 92
+ },
+ "intro": [
+  "Down on the floor of a forest so tall,",
+  "where leaves are like rafts and the ferns are like walls,",
+  "two friends were bored of their seeds and their bugs…",
+  "\"Let’s find the TASTIEST fruit!\" (and give it big hugs)."
+ ],
+ "layers": [
+  {
+   "id": "sky",
+   "depth": 0,
+   "kind": "sky"
+  },
+  {
+   "id": "painted-far",
+   "depth": 0.04,
+   "kind": "image",
+   "src": "/assets/gen/s1-far.webp",
+   "y": 1600,
+   "scale": 2.3,
+   "props": {
+    "haze": 0.3
+   }
+  },
+  {
+   "id": "treeline",
+   "depth": 0.3,
+   "kind": "treeline",
+   "y": 960,
+   "color": "#7f9f86",
+   "seed": 9
+  },
+  {
+   "id": "hills",
+   "depth": 0.55,
+   "kind": "hills",
+   "y": 1040,
+   "color": "#6f9479",
+   "seed": 11
+  },
+  {
+   "id": "shafts",
+   "depth": 1,
+   "kind": "lightshafts",
+   "seed": 2,
+   "props": {
+    "top": -400,
+    "bottom": 980,
+    "shafts": [
+     {
+      "x": 1200,
+      "w": 220
+     },
+     {
+      "x": 3400,
+      "w": 260
+     },
+     {
+      "x": 6200,
+      "w": 240
+     },
+     {
+      "x": 9800,
+      "w": 280
+     }
+    ]
+   }
+  }
+ ],
+ "terrain": [],
+ "platforms": [],
+ "entities": [],
+ "cameraZones": [
+  {
+   "id": "vista",
+   "x": 11380,
+   "y": -400,
+   "w": 1600,
+   "h": 1000,
+   "zoom": 0.72,
+   "focus": {
+    "x": 12150,
+    "y": 120
+   }
+  },
+  {
+   "id": "tunnel",
+   "x": 3950,
+   "y": 500,
+   "w": 620,
+   "h": 500,
+   "zoom": 1.12
+  }
+ ],
+ "next": "stage2",
+ "grid": {
+  "cell": 140,
+  "origin": {
+   "x": -470,
+   "y": -360
+  },
+  "rows": [
+   "T..............................................................................................T",
+   "T..............................................................................................T",
+   "T...........................................cccc...............................................T",
+   "T............................................y.................................................T",
+   "T............................................y..ccc............................................T",
+   "T............................................yyyy.................................../###########",
+   "T........................................cc..y..................................../#############",
+   "T...............................WWWW......yyyy.................................aA###############",
+   "T...........WW.../#######.##d_D..............y..............####################################",
+   "#########################.#############dD....y..............####################################",
+   "#########################.#############################...######################################",
+   "#########################.#############################...######################################",
+   "#########################.#############################...######################################",
+   "#########################.#############################...######################################",
+   "#########################.#############################...######################################"
+  ],
+  "things": [
+   "                                                                                                ",
+   "                                             O                                                  ",
+   "                                                                                                ",
+   "                                                 ob                                        fH   ",
+   "                                                                            O        P m    YF  ",
+   "                                         oo                               o        o      G     ",
+   "            o       P    O                                     o oo   Q    f    oo!             ",
+   "    f       oo b   oooo o o                                  C xooox  NFP fY     C              ",
+   "     YS oooo  b C             C?ooo oooo        !      oO                    !                  ",
+   "        ?  ?                                    CPoho? o o ?                                    ",
+   "             E                                                                                  ",
+   "                                                                                                ",
+   "                                                                                                ",
+   "                                                                                                ",
+   "                                                                                                "
+  ],
+  "notes": {
+   "9,8": {
+    "at": [
+     -70,
+     -69
+    ],
+    "text": "[←] [→] to walk",
+    "props": {
+     "w": 420,
+     "h": 500
+    }
+   },
+   "9,11": {
+    "at": [
+     -20,
+     -70
+    ],
+    "text": "[Space] to jump. Hold it to jump higher!",
+    "props": {
+     "w": 380,
+     "h": 500
+    }
+   },
+   "8,14": {
+    "at": [
+     40,
+     -68
+    ]
+   },
+   "7,15": {
+    "at": [
+     0,
+     8
+    ]
+   },
+   "6,20": {
+    "at": [
+     50,
+     154
+    ],
+    "text": "Rattan is a climbing palm covered in sharp spines. It hooks onto trees to climb up into the sunlight. Ouch! Better jump over it.",
+    "title": "Rattan Palm"
+   },
+   "8,31": {
+    "at": [
+     -60,
+     66
+    ],
+    "text": "Too low for Lemmy to stand! Hold [Shift] to Dash",
+    "props": {
+     "w": 300,
+     "h": 500
+    }
+   },
+   "8,48": {
+    "at": [
+     -70,
+     142
+    ],
+    "event": "hornbill-flyover",
+    "props": {
+     "w": 120,
+     "h": 600
+    }
+   },
+   "9,53": {
+    "at": [
+     20,
+     14
+    ],
+    "text": "Wide gap! Hold [Shift] to Dash, then jump to fly far",
+    "props": {
+     "w": 260,
+     "h": 500
+    }
+   },
+   "9,59": {
+    "at": [
+     0,
+     2
+    ],
+    "text": "High ledge! Stride jumps higher than Dash",
+    "props": {
+     "w": 260,
+     "h": 500
+    }
+   },
+   "6,70": {
+    "at": [
+     20,
+     139
+    ],
+    "props": {
+     "name": "Wild Banana",
+     "rhyme": "Soft and sweet, but full of seeds!\nA wild banana fills our needs…\nbut is it the TASTIEST? Hmm, not quite.\nLet's keep on searching, left and right!",
+     "score": 6
+    }
+   },
+   "7,72": {
+    "at": [
+     -20,
+     0
+    ],
+    "text": "Wild bananas are packed with hard black seeds, not like the soft ones in shops today. They grew here in the warm forests long before there were any farms at all.",
+    "title": "Wild Banana"
+   },
+   "8,77": {
+    "at": [
+     20,
+     -68
+    ],
+    "event": "chase-off",
+    "props": {
+     "w": 120,
+     "h": 600
+    }
+   },
+   "6,82": {
+    "at": [
+     20,
+     -9
+    ],
+    "event": "hornbill-land",
+    "props": {
+     "w": 120,
+     "h": 600
+    }
+   },
+   "3,92": {
+    "at": [
+     40,
+     -38
+    ]
+   },
+   "4,85": {
+    "at": [
+     0,
+     30
+    ],
+    "text": "At the end of the Ice Age the giant ice sheets melted and the sea rose about 120 meters. Low valleys flooded, and the hills of \"Sundaland\" became islands, like the one Lemmy and Lizzy call home!",
+    "title": "Sundaland"
+   },
+   "5,90": {
+    "at": [
+     -20,
+     -70
+    ],
+    "dialog": [
+     {
+      "who": "Hornbill",
+      "lines": "Well hello, small friends! You followed me far.\nYou're braver than most little critters are!"
+     },
+     {
+      "who": "Lemmy",
+      "lines": "We're bored of seeds and bored of bugs!\nWe want a snack that's worth big hugs!"
+     },
+     {
+      "who": "Hornbill",
+      "lines": "Then listen close, I'll tell you true:\nthe Tastiest Fruit is waiting for you."
+     },
+     {
+      "who": "Hornbill",
+      "lines": "It grows on the mountain, way up high,\nwhere misty clouds go drifting by."
+     },
+     {
+      "who": "Hornbill",
+      "lines": "But the sea is rising, day by day…\nso hurry along, be on your way!"
+     },
+     {
+      "who": "Lizzy",
+      "lines": "The Tastiest Fruit! Oh Lemmy, let's go!\nThrough jungle and river, through high and low!"
+     }
+    ]
+   },
+   "9,49": {
+    "text": "This big bird has a bright red-and-yellow \"casque\" on top of its beak, and its wings whoosh loudly. Hornbills swallow fruit and drop the seeds far away, planting new trees all over the forest!",
+    "title": "Rhinoceros Hornbill"
+   }
+  }
+ }
+}

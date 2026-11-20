@@ -1,0 +1,16 @@
+{
+ "source": "reference/candidates/lemmy-rig-pose-stand/v3.png",
+ "exportScale": 0.5,
+ "image": "rig-lemmy-stand.webp",
+ "frames": [
+  {
+   "x": 1,
+   "y": 1,
+   "w": 922,
+   "h": 756,
+   "ax": 587.6,
+   "ay": 741.3,
+   "shadow": true
+  }
+ ]
+}

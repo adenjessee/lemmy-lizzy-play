@@ -1,0 +1,270 @@
+{
+ "id": "climb-test",
+ "name": "Climb test (fixture)",
+ "subtitle": "Game 1 · Stage 3 · up the giant trunk",
+ "width": 0,
+ "height": 0,
+ "killY": 0,
+ "palette": {
+  "sky": [
+   "#b5d3d8",
+   "#eef0dc"
+  ],
+  "grade": {
+   "warmth": 0.35,
+   "saturation": 0.9,
+   "paper": 1
+  }
+ },
+ "music": {
+  "theme": "climb",
+  "tempo": 96
+ },
+ "intro": [
+  "Up, up, up the giant tree,",
+  "higher than a bird can see!"
+ ],
+ "layers": [
+  {
+   "id": "sky",
+   "depth": 0,
+   "kind": "sky"
+  },
+  {
+   "id": "painted-far",
+   "depth": 0.04,
+   "kind": "image",
+   "src": "/assets/gen/s3-far.webp",
+   "y": 1600,
+   "scale": 2.3,
+   "props": {
+    "haze": 0.3
+   }
+  },
+  {
+   "id": "shafts",
+   "depth": 1,
+   "kind": "lightshafts",
+   "seed": 6,
+   "props": {
+    "top": -3400,
+    "bottom": 900,
+    "shafts": [
+     {
+      "x": 700,
+      "w": 260
+     },
+     {
+      "x": 1700,
+      "w": 200
+     },
+     {
+      "x": 2600,
+      "w": 280
+     }
+    ]
+   }
+  }
+ ],
+ "terrain": [],
+ "platforms": [],
+ "entities": [
+  {
+   "id": "sign-3",
+   "type": "sign",
+   "x": 750,
+   "y": 912,
+   "props": {
+    "text": "Walk into the bark and press [↑] to climb. [Space] leaps off!",
+    "w": 480,
+    "h": 500
+   }
+  },
+  {
+   "id": "journal-25",
+   "type": "journal",
+   "x": 1010,
+   "y": -276,
+   "props": {
+    "title": "Dipterocarp trees",
+    "text": "Some rainforest giants in Sumatra grow taller than a 20-storey building. Their seeds have two wings and spin like helicopters as they fall."
+   }
+  },
+  {
+   "id": "sign-27",
+   "type": "sign",
+   "x": 1700,
+   "y": -1100,
+   "props": {
+    "text": "On the right side of the trunk: [Space] to twist-leap to the next tree!",
+    "w": 300,
+    "h": 600
+   }
+  },
+  {
+   "id": "golden-seed-28",
+   "type": "golden-seed",
+   "x": 1620,
+   "y": -1500,
+   "props": {
+    "note": "Golden seed 1: in the middle of the twist-leap gap"
+   }
+  },
+  {
+   "id": "golden-seed-38",
+   "type": "golden-seed",
+   "x": 880,
+   "y": -2819,
+   "props": {
+    "note": "Golden seed 2: out on the left branch at the top of trunk A"
+   }
+  },
+  {
+   "id": "golden-seed-41",
+   "type": "golden-seed",
+   "x": 3300,
+   "y": -3517,
+   "props": {
+    "note": "Golden seed 3: above the canopy run"
+   }
+  },
+  {
+   "id": "fruit-42",
+   "type": "fruit",
+   "x": 2900,
+   "y": -3273,
+   "props": {
+    "name": "Strangler Fig",
+    "rhyme": "Up in the treetops, juicy and red,\na fig as big as Lizzy's head!\nBut tastiest? Lemmy shakes his ear:\n\"The Java plums are somewhere near!\"",
+    "score": 8
+   }
+  },
+  {
+   "id": "goal-43",
+   "type": "goal",
+   "x": 3400,
+   "y": -3300,
+   "props": {
+    "dialog": [
+     {
+      "who": "Lizzy",
+      "lines": "We climbed the tree! The sky's so near!\nThe Java plums must grow round here!"
+     },
+     {
+      "who": "Lemmy",
+      "lines": "…but what's that green thing on the branch?\nIt's looking at us. Is that… a… snake?!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "checkpoint-climb-2",
+   "type": "checkpoint",
+   "x": 1025,
+   "y": -1616
+  }
+ ],
+ "cameraZones": [
+  {
+   "id": "climb",
+   "x": 600,
+   "y": -3400,
+   "w": 2000,
+   "h": 4300,
+   "zoom": 0.95
+  }
+ ],
+ "grid": {
+  "cell": 140,
+  "origin": {
+   "x": -470,
+   "y": -4140
+  },
+  "rows": [
+   "..............................",
+   "..............................",
+   "..............................",
+   "..............................",
+   "..............................",
+   "..............................",
+   "................TTBBBBBBBBBBB.",
+   "................TT............",
+   "................TT............",
+   "................TT............",
+   ".........==TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "..........LTTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "..........LTTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "...........TTT..TT............",
+   "..........LTTT................",
+   "...........TTT................",
+   "...........TTT................",
+   "...........TTT................",
+   "...........TTT................",
+   "..........LTTT................",
+   "...........TTT................",
+   "..a____D...TTT_______D........",
+   ".#####################\\.......",
+   ".######################.......",
+   ".######################.......",
+   ".######################.......",
+   ".######################......."
+  ],
+  "things": [
+   "                              ",
+   "                              ",
+   "                              ",
+   "                              ",
+   "                              ",
+   "                    C         ",
+   "                              ",
+   "                              ",
+   "                              ",
+   "                              ",
+   "                              ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "                              ",
+   "          o                   ",
+   "          o                   ",
+   "          o                   ",
+   "   F           F  h           ",
+   "      S m                     ",
+   "                              ",
+   "                              ",
+   "                              ",
+   "                              ",
+   "                              "
+  ]
+ }
+}

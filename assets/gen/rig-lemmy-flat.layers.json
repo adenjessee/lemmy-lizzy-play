@@ -1,0 +1,47 @@
+{
+ "width": 1053,
+ "height": 470,
+ "parts": {
+  "body": {
+   "image": "rig-lemmy-flat.body.webp",
+   "x": 1,
+   "y": 1,
+   "w": 1012,
+   "h": 446
+  },
+  "arm": {
+   "image": "rig-lemmy-flat.arm.webp",
+   "x": 696,
+   "y": 346,
+   "w": 356,
+   "h": 123
+  },
+  "farArm": {
+   "image": "rig-lemmy-flat.farArm.webp",
+   "x": 797,
+   "y": 333,
+   "w": 255,
+   "h": 79
+  },
+  "leg": {
+   "image": "rig-lemmy-flat.leg.webp",
+   "x": 170,
+   "y": 364,
+   "w": 306,
+   "h": 95
+  },
+  "farLeg": {
+   "image": "rig-lemmy-flat.farLeg.webp",
+   "x": 183,
+   "y": 326,
+   "w": 231,
+   "h": 96
+  }
+ },
+ "faces": {
+  "blink": "rig-lemmy-flat.body.blink.webp",
+  "happy": "rig-lemmy-flat.body.happy.webp",
+  "ouch": "rig-lemmy-flat.body.ouch.webp",
+  "wow": "rig-lemmy-flat.body.wow.webp"
+ }
+}
